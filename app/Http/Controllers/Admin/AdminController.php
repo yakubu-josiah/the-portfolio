@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\AboutEdit;
 use App\Models\HomeEdit;
 use Illuminate\Http\Request;
