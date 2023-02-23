@@ -1,16 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\ContactForm;
 use Illuminate\Http\Request;
 
 class SupportController extends Controller
 {
-    // public function __invoke()
-    // {
-        
-    // }
+    
     public function contactList(){
         $getContact = ContactForm::getForAdmin();
         return view('Contact.display', ['form' => $getContact]);
