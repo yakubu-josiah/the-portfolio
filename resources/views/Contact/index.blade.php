@@ -71,7 +71,7 @@
                     <div class="card-body">
                     <h5 class="card-title">What others said</h5>
                     <p class="card-text">Lot's of forms have been recieved from our clients around the world. Read through their experiences.</p>
-                    <a href="{{ route('Contact.display') }}" class="btn btn-secondary">See More</a>
+                    <a href="{{ route('contact.display') }}" class="btn btn-secondary">See More</a>
                     </div>
                 </div>
             </div>
