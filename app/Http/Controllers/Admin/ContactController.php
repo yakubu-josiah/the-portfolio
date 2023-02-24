@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Admin\Controllers;
 
+use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreValidation;
 use App\Models\ContactForm;
 use Illuminate\Http\Request;
